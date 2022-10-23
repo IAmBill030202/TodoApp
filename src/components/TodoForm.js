@@ -17,6 +17,7 @@ const TodoForm = ({ inputText, setInputText, setTodos, todos, setStatus }) => {
     ]);
     setInputText(""); /*Set input thành null sau mỗi lần submit*/
   };
+  /*Mỗi khi select filter, nhận value của filter tương ứng */
   const statusHandler = (e) => {
     setStatus(e.target.value);
   };
